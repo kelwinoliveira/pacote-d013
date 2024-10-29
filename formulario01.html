@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="" autocomplete="on" method="get">
+    <fieldset>
+      <legend> form teste</legend>
+
+      <p>
+        <label for="iemail">e-mail</label>
+        <input type="email" name="email" id="iemail" maxlength="25">
+
+      </p>
+      <p>
+        <label for="inom">nome:</label>
+        <input type="text" name="nom" id="inom" 
+       required maxlength=" 20" minlength=" 8">
+      </p>
+      <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>esportes</legend>
+      <input type="checkbox" name="espor" id="iesfut"><label for="iesfut">futbol</label>
+      <input type="checkbox" name="espor" id="iesbas"><label for="iesbas">basquete</label>
+      <input type="checkbox" name="espor" id="iesvol"><label for="iesvol">volei</label>
+      <input type="checkbox" name="espor" id="iestes"><label for="iestes">tenis</label>
+    </fieldset>
+    <fieldset>
+      <legend>sexo</legend>
+      <input type="radio" name="sex" id="isexm"><label for="isexm">masculino</label>
+      <input type="radio" name="sex" id="isexf"><label for="isexf">feminino</label>
+    </fieldset>
+    <fieldset>
+       <p> <label for="icor">cores</label>
+      
+      <input type="color"></p>
+      <p><input type="range" name="sat" id="isat"></p>
+      <input type="file" name="foto" id="ifoto">
+    </fieldset>
+
+  <fieldset>
+    <legend>sem o input</legend>
+    
+
+  </fieldset>
+
+  </form>
+
+</body>
+
+</html>
